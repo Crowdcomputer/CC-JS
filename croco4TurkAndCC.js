@@ -28,7 +28,7 @@ function() {
         console.log("not in MTURK");
         return;
     } else {
-        $("form input[type=submit]").attr("value", "Submit to MTurk");
+$("form input[type=submit]").attr("value", "Submit to CC, Turk and Requester");
     }
 
     //

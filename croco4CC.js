@@ -26,6 +26,7 @@ $(document).ready(
 
 function() {
 
+$("form input[type=submit]").attr("value", "Submit to CC and Requester");
     // this should automatically find the form.
     $("form input[type=submit]").click(
 
