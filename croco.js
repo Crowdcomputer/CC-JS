@@ -12,8 +12,8 @@ function gup(name) {
 var turk=gup("turkSubmitTo");
 console.log("turk + " + turk)
 if (turk == undefined)
-	$.getScript('croco4CC.js');
+	$.getScript('https://raw.github.com/esseti/CC-JS/master/croco4CC.js');
 
 else
-	$.getScript('croco4TurkAndCC.js');
+	$.getScript('https://raw.github.com/esseti/CC-JS/master/croco4TurkAndCC.js');
 
